@@ -1,7 +1,7 @@
 import requests, smtplib, os
 
 END_POINT = "https://api.openweathermap.org/data/2.5/forecast"
-API_KEY = os.environ.get("API_KEY")
+API_KEY = os.environ.get("WEATHER_API_KEY")
 
 MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASSWORD = os.environ.get("MY_PASSWORD")
