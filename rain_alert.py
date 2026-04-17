@@ -1,5 +1,4 @@
 import requests, smtplib, os
-from twilio.rest import Client
 
 END_POINT = "https://api.openweathermap.org/data/2.5/forecast"
 API_KEY = os.environ.get("API_KEY")
