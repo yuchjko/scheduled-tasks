@@ -43,5 +43,5 @@ jobs:
           # Add more secrets in Settings > Secrets > Actions
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
-          API_KEY: ${{ secrets.API_KEY }}
+          API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: python rain_alert.py
